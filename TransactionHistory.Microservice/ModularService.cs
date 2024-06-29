@@ -1,6 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
-using Microsoft.EntityFrameworkCore;
-using TransactionHistory.Microservice.Features.TransactionHistory;
+﻿using TransactionHistory.Microservice.Features.TransactionHistory;
 
 namespace TransactionHistory.Microservice
 {
