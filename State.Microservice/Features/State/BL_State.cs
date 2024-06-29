@@ -1,7 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.Models.Features;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.State;
-
-namespace State.Microservice.Features.State
+﻿namespace State.Microservice.Features.State
 {
     public class BL_State
     {
@@ -34,5 +31,4 @@ namespace State.Microservice.Features.State
 
         #endregion
     }
-
 }
