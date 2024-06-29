@@ -48,9 +48,7 @@ public class DA_State
         try
         {
             string jsonStr = await File.ReadAllTextAsync("Data/StateList.json");
-            List<TblState> lst = JsonConvert.DeserializeObject<
-                List<TblState>
-            >(jsonStr)!;
+            List<TblState> lst = JsonConvert.DeserializeObject<List<TblState>>(jsonStr)!;
             await _appDbContext.TblStates.AddRangeAsync(lst);
             int result = await _appDbContext.SaveChangesAsync();
 
