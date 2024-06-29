@@ -1,5 +1,6 @@
 // Global using directives
 
+global using Deposit.Microservice.Features.Deposit;
 global using Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
 global using Microservices.DotNet8MiniBankingManagementSystem.Mapper;
 global using Microservices.DotNet8MiniBankingManagementSystem.Models.Enums;
