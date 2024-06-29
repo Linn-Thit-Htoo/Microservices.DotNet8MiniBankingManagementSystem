@@ -1,6 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
-using Microsoft.EntityFrameworkCore;
-using Withdraw.Microservice.Features.Withdraw;
+﻿using Withdraw.Microservice.Features.Withdraw;
 
 namespace Withdraw.Microservice
 {
