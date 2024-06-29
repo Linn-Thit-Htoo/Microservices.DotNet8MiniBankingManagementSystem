@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
+﻿namespace Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
 
 public partial class TblAccount
 {
