@@ -2,20 +2,27 @@
 
 public static class ModularService
 {
-    public static IServiceCollection AddFeatures(this IServiceCollection services, WebApplicationBuilder builder)
+    public static IServiceCollection AddFeatures(
+        this IServiceCollection services,
+        WebApplicationBuilder builder
+    )
     {
-        builder.Services.AddDbContext<AppDbContext>(opt =>
-        {
-            opt.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
-            opt.UseSqlServer(builder.Configuration.GetConnectionString("DbConnection"));
-        }, ServiceLifetime.Transient);
+        builder.Services.AddDbContext<AppDbContext>(
+            opt =>
+            {
+                opt.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+                opt.UseSqlServer(builder.Configuration.GetConnectionString("DbConnection"));
+            },
+            ServiceLifetime.Transient
+        );
 
-        services.AddScoped<DA_TransactionHistory>();
-        services.AddScoped<BL_TransactionHistory>();
-        builder.Services.AddControllers().AddJsonOptions(opt =>
-        {
-            opt.JsonSerializerOptions.PropertyNamingPolicy = null;
-        });
+        services.AddScoped<DA_TransactionHistory>().AddScoped<BL_TransactionHistory>();
+        builder
+            .Services.AddControllers()
+            .AddJsonOptions(opt =>
+            {
+                opt.JsonSerializerOptions.PropertyNamingPolicy = null;
+            });
 
         return services;
     }
