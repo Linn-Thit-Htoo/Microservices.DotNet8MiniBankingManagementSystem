@@ -1,5 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.TransactionHistory;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace TransactionHistory.Microservice.Features.TransactionHistory

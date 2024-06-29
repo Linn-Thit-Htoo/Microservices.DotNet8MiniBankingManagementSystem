@@ -1,7 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.TransactionHistory;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Features;
-
-namespace TransactionHistory.Microservice.Features.TransactionHistory
+﻿namespace TransactionHistory.Microservice.Features.TransactionHistory
 {
     public class BL_TransactionHistory
     {
@@ -41,5 +38,4 @@ namespace TransactionHistory.Microservice.Features.TransactionHistory
 
         #endregion
     }
-
 }

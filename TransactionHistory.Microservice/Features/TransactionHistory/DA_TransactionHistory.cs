@@ -1,6 +1,4 @@
 ﻿using Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.TransactionHistory;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Features;
 using Microservices.DotNet8MiniBankingManagementSystem.Models.Resources;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
