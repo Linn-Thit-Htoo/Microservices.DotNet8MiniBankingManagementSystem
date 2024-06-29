@@ -1,50 +1,48 @@
 ﻿using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Account;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Account.Microservice.Features.Account
+namespace Account.Microservice.Features.Account;
+
+[Route("api/v1/account")]
+[ApiController]
+public class AccountController : BaseController
 {
-    [Route("api/v1/account")]
-    [ApiController]
-    public class AccountController : BaseController
+    private readonly BL_Account _bL_Account;
+
+    public AccountController(BL_Account bL_Account)
     {
-        private readonly BL_Account _bL_Account;
+        _bL_Account = bL_Account;
+    }
 
-        public AccountController(BL_Account bL_Account)
+    [HttpGet]
+    public async Task<IActionResult> GetAccountList()
+    {
+        try
         {
-            _bL_Account = bL_Account;
+            var responseModel = await _bL_Account.GetAccountListAsync();
+            return Content(responseModel);
         }
-
-        [HttpGet]
-        public async Task<IActionResult> GetAccountList()
+        catch (Exception ex)
         {
-            try
-            {
-                var responseModel = await _bL_Account.GetAccountListAsync();
-                return Content(responseModel);
-            }
-            catch (Exception ex)
-            {
-                return HandleFailure(ex);
-            }
+            return HandleFailure(ex);
         }
+    }
 
-        [HttpPost]
-        public async Task<IActionResult> CreateAccount([FromBody] AccountRequestModel requestModel)
+    [HttpPost]
+    public async Task<IActionResult> CreateAccount([FromBody] AccountRequestModel requestModel)
+    {
+        try
         {
-            try
-            {
-                var result = requestModel.IsValid();
-                if (!result.Success)
-                    return BadRequest(result);
+            var result = requestModel.IsValid();
+            if (!result.Success)
+                return BadRequest(result);
 
-                var responseModel = await _bL_Account.CreateAccount(requestModel);
-                return Content(responseModel);
-            }
-            catch (Exception ex)
-            {
-                return HandleFailure(ex);
-            }
+            var responseModel = await _bL_Account.CreateAccount(requestModel);
+            return Content(responseModel);
+        }
+        catch (Exception ex)
+        {
+            return HandleFailure(ex);
         }
     }
 }
