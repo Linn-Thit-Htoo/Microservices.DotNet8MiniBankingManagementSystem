@@ -31,6 +31,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{C2D9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.DotNet8MiniBankingManagementSystem.Gateway", "Microservices.DotNet8MiniBankingManagementSystem.Gateway\Microservices.DotNet8MiniBankingManagementSystem.Gateway.csproj", "{FADB6006-50F2-496C-ABEA-BE622FD932A2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{0A1FFB71-5DC9-4649-8912-C948F36562FA}"
+	ProjectSection(SolutionItems) = preProject
+		Mini Banking Management System Microservices.postman_collection.json = Mini Banking Management System Microservices.postman_collection.json
+		script.sql = script.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
