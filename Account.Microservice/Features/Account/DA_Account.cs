@@ -1,7 +1,6 @@
 ﻿using Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
 using Microservices.DotNet8MiniBankingManagementSystem.Mapper;
 using Microservices.DotNet8MiniBankingManagementSystem.Models.Features;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Account;
 using Microservices.DotNet8MiniBankingManagementSystem.Models.Resources;
 using Microsoft.EntityFrameworkCore;
 

@@ -1,7 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Account;
-using Microsoft.AspNetCore.Mvc;
-
-namespace Account.Microservice.Features.Account;
+﻿namespace Account.Microservice.Features.Account;
 
 [Route("api/v1/account")]
 [ApiController]
