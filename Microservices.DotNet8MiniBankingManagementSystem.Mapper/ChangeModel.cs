@@ -1,12 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Account;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Deposit;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.State;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Township;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.TransactionHistory;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Withdraw;
-
-namespace Microservices.DotNet8MiniBankingManagementSystem.Mapper;
+﻿namespace Microservices.DotNet8MiniBankingManagementSystem.Mapper;
 
 public static class ChangeModel
 {
