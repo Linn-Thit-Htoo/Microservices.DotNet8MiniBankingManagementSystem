@@ -1,0 +1,9 @@
+// Global using directives
+
+global using Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
+global using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Account;
+global using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Deposit;
+global using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.State;
+global using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Township;
+global using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.TransactionHistory;
+global using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Withdraw;
