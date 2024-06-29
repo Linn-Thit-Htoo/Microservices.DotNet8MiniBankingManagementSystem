@@ -17,6 +17,7 @@ public class AccountController : BaseController
         try
         {
             var responseModel = await _bL_Account.GetAccountListAsync();
+
             return Content(responseModel);
         }
         catch (Exception ex)
@@ -35,6 +36,7 @@ public class AccountController : BaseController
                 return BadRequest(result);
 
             var responseModel = await _bL_Account.CreateAccount(requestModel);
+
             return Content(responseModel);
         }
         catch (Exception ex)
