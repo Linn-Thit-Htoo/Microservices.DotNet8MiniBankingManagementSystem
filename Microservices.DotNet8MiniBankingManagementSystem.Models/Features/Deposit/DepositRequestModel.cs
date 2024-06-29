@@ -1,6 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.Shared;
-
-namespace Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Deposit;
+﻿namespace Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Deposit;
 
 public class DepositRequestModel
 {

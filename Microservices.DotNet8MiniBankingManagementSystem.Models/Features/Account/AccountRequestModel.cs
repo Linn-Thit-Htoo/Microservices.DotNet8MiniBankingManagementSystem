@@ -1,6 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.Shared;
-
-namespace Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Account;
+﻿namespace Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Account;
 
 public class AccountRequestModel
 {

@@ -1,6 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.Shared;
-
-namespace Microservices.DotNet8MiniBankingManagementSystem.Models.Features.TransactionHistory;
+﻿namespace Microservices.DotNet8MiniBankingManagementSystem.Models.Features.TransactionHistory;
 
 public class TransactionRequestModel
 {
