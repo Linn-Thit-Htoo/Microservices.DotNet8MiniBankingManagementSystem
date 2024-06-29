@@ -1,5 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Deposit;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Deposit.Microservice.Features.Deposit

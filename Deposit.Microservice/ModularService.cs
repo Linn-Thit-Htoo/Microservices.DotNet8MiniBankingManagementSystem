@@ -1,6 +1,4 @@
 ﻿using Deposit.Microservice.Features.Deposit;
-using Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
-using Microsoft.EntityFrameworkCore;
 
 namespace Deposit.Microservice
 {
