@@ -1,5 +1,3 @@
-using Account.Microservice;
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
