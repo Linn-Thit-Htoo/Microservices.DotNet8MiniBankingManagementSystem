@@ -1,9 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
-using Newtonsoft.Json;
-using Microsoft.EntityFrameworkCore;
-using Microservices.DotNet8MiniBankingManagementSystem.Mapper;
-
-namespace Township.Microservice.Features.Township
+﻿namespace Township.Microservice.Features.Township
 {
     public class DA_Township
     {
@@ -71,5 +66,4 @@ namespace Township.Microservice.Features.Township
 
         #endregion
     }
-
 }

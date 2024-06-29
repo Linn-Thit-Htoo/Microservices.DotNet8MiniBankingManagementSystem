@@ -1,6 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
-using Microsoft.EntityFrameworkCore;
-using Township.Microservice.Features.Township;
+﻿using Township.Microservice.Features.Township;
 
 namespace Township.Microservice
 {
