@@ -1,7 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Withdraw;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Features;
-
-namespace Withdraw.Microservice.Features.Withdraw
+﻿namespace Withdraw.Microservice.Features.Withdraw
 {
     public class BL_Withdraw
     {

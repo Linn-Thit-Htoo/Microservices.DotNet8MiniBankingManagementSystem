@@ -1,5 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Withdraw;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Withdraw.Microservice.Features.Withdraw
