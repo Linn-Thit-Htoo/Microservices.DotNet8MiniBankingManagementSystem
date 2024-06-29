@@ -1,6 +1,4 @@
 ﻿using Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Township;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Features;
 using Newtonsoft.Json;
 using Microsoft.EntityFrameworkCore;
 using Microservices.DotNet8MiniBankingManagementSystem.Mapper;

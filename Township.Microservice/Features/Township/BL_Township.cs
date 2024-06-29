@@ -1,7 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Township;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Features;
-
-namespace Township.Microservice.Features.Township
+﻿namespace Township.Microservice.Features.Township
 {
     public class BL_Township
     {
