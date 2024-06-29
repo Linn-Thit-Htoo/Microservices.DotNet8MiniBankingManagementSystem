@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
-
-namespace Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
+﻿namespace Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
 
 public partial class AppDbContext : DbContext
 {
