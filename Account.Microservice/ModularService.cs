@@ -1,6 +1,4 @@
-﻿using Account.Microservice.Features.Account;
-
-namespace Account.Microservice;
+﻿namespace Account.Microservice;
 
 public static class ModularService
 {
