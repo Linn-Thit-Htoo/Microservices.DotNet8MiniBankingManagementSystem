@@ -1,0 +1,6 @@
+@Withdraw.Microservice_HostAddress = http://localhost:5262
+
+GET {{Withdraw.Microservice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

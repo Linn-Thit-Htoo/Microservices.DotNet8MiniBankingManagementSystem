@@ -1,0 +1,6 @@
+@TransactionHistory.Microservice_HostAddress = http://localhost:5226
+
+GET {{TransactionHistory.Microservice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

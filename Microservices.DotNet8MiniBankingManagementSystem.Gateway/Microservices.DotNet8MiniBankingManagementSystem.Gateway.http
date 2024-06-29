@@ -1,0 +1,6 @@
+@Microservices.DotNet8MiniBankingManagementSystem.Gateway_HostAddress = http://localhost:5085
+
+GET {{Microservices.DotNet8MiniBankingManagementSystem.Gateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

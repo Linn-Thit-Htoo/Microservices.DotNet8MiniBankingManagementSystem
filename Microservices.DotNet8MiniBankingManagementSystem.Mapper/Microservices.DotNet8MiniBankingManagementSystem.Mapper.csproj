@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ulid" Version="1.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microservices.DotNet8MiniBankingManagementSystem.DbService\Microservices.DotNet8MiniBankingManagementSystem.DbService.csproj" />
+    <ProjectReference Include="..\Microservices.DotNet8MiniBankingManagementSystem.Models\Microservices.DotNet8MiniBankingManagementSystem.Models.csproj" />
+  </ItemGroup>
+
+</Project>
