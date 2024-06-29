@@ -1,5 +1,5 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Account;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Features;
+﻿using Microservices.DotNet8MiniBankingManagementSystem.Models.Features;
+using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Account;
 
 namespace Account.Microservice.Features.Account;
 
