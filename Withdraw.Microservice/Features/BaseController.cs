@@ -1,6 +1,5 @@
 ﻿using Microservices.DotNet8MiniBankingManagementSystem.Models.Enums;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
 namespace Withdraw.Microservice.Features
