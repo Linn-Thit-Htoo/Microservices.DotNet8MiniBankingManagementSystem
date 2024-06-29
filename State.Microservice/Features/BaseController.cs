@@ -2,7 +2,6 @@
 using Microservices.DotNet8MiniBankingManagementSystem.Models.Resources;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 
 namespace State.Microservice.Features
 {

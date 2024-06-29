@@ -1,6 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
-using Microsoft.EntityFrameworkCore;
-using State.Microservice.Features.State;
+﻿using State.Microservice.Features.State;
 
 namespace State.Microservice
 {

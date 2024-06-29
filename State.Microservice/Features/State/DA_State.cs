@@ -1,9 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
-using Microservices.DotNet8MiniBankingManagementSystem.Mapper;
-using Microsoft.EntityFrameworkCore;
-using Newtonsoft.Json;
-
-namespace State.Microservice.Features.State
+﻿namespace State.Microservice.Features.State
 {
     public class DA_State
     {
