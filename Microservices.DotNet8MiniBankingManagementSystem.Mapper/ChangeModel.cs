@@ -5,12 +5,6 @@ using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.State;
 using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Township;
 using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.TransactionHistory;
 using Microservices.DotNet8MiniBankingManagementSystem.Models.Features.Withdraw;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Principal;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Microservices.DotNet8MiniBankingManagementSystem.Mapper
 {
