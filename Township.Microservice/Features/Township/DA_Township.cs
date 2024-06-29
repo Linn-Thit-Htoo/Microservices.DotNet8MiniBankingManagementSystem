@@ -48,9 +48,7 @@ public class DA_Township
         try
         {
             string jsonStr = await File.ReadAllTextAsync("Data/TownshipList.json");
-            List<TblTownship> lst = JsonConvert.DeserializeObject<
-                List<TblTownship>
-            >(jsonStr)!;
+            List<TblTownship> lst = JsonConvert.DeserializeObject<List<TblTownship>>(jsonStr)!;
             await _appDbContext.TblTownships.AddRangeAsync(lst);
             int result = await _appDbContext.SaveChangesAsync();
 
