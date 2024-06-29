@@ -1,6 +1,4 @@
 ﻿using Account.Microservice.Features.Account;
-using Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
-using Microsoft.EntityFrameworkCore;
 
 namespace Account.Microservice;
 

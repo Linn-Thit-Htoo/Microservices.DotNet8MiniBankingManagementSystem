@@ -1,6 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.Models.Features;
-
-namespace Account.Microservice.Features.Account;
+﻿namespace Account.Microservice.Features.Account;
 
 public class BL_Account
 {

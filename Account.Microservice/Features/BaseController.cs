@@ -1,8 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.Models.Enums;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Resources;
-using Newtonsoft.Json;
-
-namespace Account.Microservice.Features;
+﻿namespace Account.Microservice.Features;
 
 [Route("api/[controller]")]
 [ApiController]

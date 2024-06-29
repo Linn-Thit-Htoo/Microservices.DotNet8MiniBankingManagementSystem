@@ -1,10 +1,4 @@
-﻿using Microservices.DotNet8MiniBankingManagementSystem.DbService.AppDbContexts;
-using Microservices.DotNet8MiniBankingManagementSystem.Mapper;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Features;
-using Microservices.DotNet8MiniBankingManagementSystem.Models.Resources;
-using Microsoft.EntityFrameworkCore;
-
-namespace Account.Microservice.Features.Account;
+﻿namespace Account.Microservice.Features.Account;
 
 public class DA_Account
 {
