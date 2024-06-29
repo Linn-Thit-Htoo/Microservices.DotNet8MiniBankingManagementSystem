@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-
-namespace Deposit.Microservice.Features.Deposit;
+﻿namespace Deposit.Microservice.Features.Deposit;
 
 [Route("api/v1/deposit")]
 [ApiController]
